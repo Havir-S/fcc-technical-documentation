@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+.container {
+  display: flex;
+}
+
+
+.navbar-content {
+  display: block;
+  position: sticky;
+  top: 0;
+}
